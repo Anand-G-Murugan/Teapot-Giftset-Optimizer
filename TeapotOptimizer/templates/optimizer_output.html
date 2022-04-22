@@ -1,0 +1,8 @@
+<body>
+    {% csrf_token %}
+    <span>Teapot Optimized: </span><br>
+    
+    {% for item in data %}
+    {{ item }}
+    {% endfor %}
+</body>
